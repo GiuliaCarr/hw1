@@ -1,0 +1,664 @@
+body {
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Abril Fatface', sans-serif;
+    position: relative;
+    z-index: -1;
+    background-color: rgb(208, 188, 231);
+
+    background-size: cover;
+    background-position: top;
+    color: white;
+
+}
+
+
+#default {
+    background-image: url(images/sfondo.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    height: 300px;
+    top: 0;
+
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#idpropic {
+    height: 180px;
+    width: 180px;
+    size-adjust: cover;
+    z-index: 1;
+    margin-top: 300px;
+    margin-left: 50px;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+
+#propic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 200px;
+    border: 1px solid white;
+}
+
+#name {
+    font-size: 60px;
+    display: inline-block;
+    margin-top: 390px;
+    margin-left: 30px;
+
+}
+
+#esc {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#minimenu {
+
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.offmenu {
+    display: none;
+}
+
+.onmenu {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: violet;
+    z-index: 10;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+#laterale {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+
+    display: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 6;
+    margin-right: 5px;
+}
+
+nav {
+    color: white;
+    height: 50px;
+
+    font-size: 80%;
+    font-family: 'Abril Fatface', sans-serif;
+
+}
+
+
+#nome div img {
+    max-height: 100%;
+}
+
+.log {
+    text-decoration: none;
+    color: white;
+    border: 1px white solid;
+    border-radius: 40px;
+    padding: 5px;
+
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.profile,
+.char,
+#home,
+.about,
+.tw,
+.vis {
+    color: white;
+    text-decoration: none;
+}
+
+.Button:hover,
+.tw:hover,
+.char:hover,
+.vis:hover,
+.profile:hover,
+.about:hover,
+#home:hover {
+
+    color: rgb(53, 53, 102);
+}
+
+.log:hover {
+    background-color: rgb(53, 53, 102);
+}
+
+#modify:hover {
+    border: 1px white solid;
+
+}
+
+#chars,
+#streams {
+    cursor: pointer;
+}
+
+#chars:hover,
+#streams:hover {
+    color: purple;
+}
+
+#nome {
+    width: 30%;
+    height: 32px;
+
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Lobster', sans-serif;
+}
+
+#nome a {
+    align-self: center;
+
+}
+
+#options {
+    width: 60%;
+
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-around;
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#menu {
+    display: none;
+
+    width: 60px;
+    max-height: 60px;
+
+
+}
+
+
+#laterale {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+
+    display: none;
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 5px;
+}
+
+#modify {
+    border-radius: 50px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 320px;
+}
+
+#modifyProfile {
+    font-family: 'Fjalla One', sans-serif;
+    position: absolute;
+    top: 330;
+    right: 150;
+}
+
+#modifyProfile select {
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: black
+}
+
+.hidden {
+    display: none;
+}
+
+#favorites {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 30px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+#choose {
+    display: flex;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 30px;
+}
+
+#break {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 2px;
+    background-color: white;
+}
+
+#preferences {
+
+    position: absolute;
+    margin-top: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+#preferences section {
+    display: flex;
+    background-color: rgb(155, 155, 253);
+    border: 2px solid rgb(53, 53, 102);
+    opacity: 0.9;
+    height: 500px;
+    width: 800px;
+    margin: 30px;
+}
+
+#preferences section:hover {
+    background-color: rgb(94, 94, 153);
+
+
+}
+
+
+#preferences section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    width: 100%;
+    margin: 20px 10px;
+
+    font-family: 'Fjalla One', sans-serif;
+
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-bottom: 80px;
+
+
+
+
+}
+
+#preferences section div h1 {
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+.save {
+    opacity: 0.4;
+    position: absolute;
+    top: 15;
+    right: 15;
+    height: 50px;
+    width: 50px;
+
+
+}
+
+.save:hover {
+    opacity: 1;
+}
+
+#preferences div img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#preferences div span,
+#preferences div h3 {
+    align-self: flex-start;
+}
+
+#preferences div h1,
+#preferences div h3,
+#preferences div span {
+    margin-top: 10px;
+}
+
+
+
+
+#savechanges {
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: black;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    align-self: center;
+    border: 1px solid black;
+    font-size: 0.75em;
+}
+
+#savechanges:hover {
+    border: 1px solid white;
+}
+
+
+
+.error {
+    align-self: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#results {
+    position: absolute;
+    margin-top: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#results div {
+    position: relative;
+    font-size: 0.75em;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 40px;
+    background-color: white;
+    color: purple;
+    position: relative;
+
+
+}
+
+#results div img {
+    max-width: 50%;
+    max-height: 50%;
+    align-self: center;
+}
+
+#results div a {
+    text-decoration: none;
+    margin-top: 30px;
+
+    color: white;
+    border-radius: 20px;
+    background-color: purple;
+    border: 2px solid purple;
+    font-family: 'Fjalla One', sans-serif;
+    width: 150px;
+    align-self: center;
+
+}
+
+#results h1,
+#results h2,
+#results img,
+#results img,
+#results span,
+#results a {
+    margin: 5px;
+}
+
+.chosen {
+    border-bottom: 1px solid purple;
+    color: purple;
+}
+
+
+@media(max-width:1000px) {
+
+    .Button,
+
+
+    nav {
+        display: none;
+    }
+
+
+    #menu,
+    #laterale {
+        display: block;
+    }
+
+
+
+}
+
+@media(max-width:1140px) {
+    #modifyProfile {
+        position: absolute;
+        top: 420;
+
+    }
+}
+
+@media(max-width:900px) {
+
+    body {
+        font-size: 16px;
+
+    }
+
+    #preferences section,
+    #results section {
+        height: 400px;
+        width: 100%;
+        margin: 18px;
+    }
+
+    #preferences div h1,
+    #results div h1,
+    #preferences div h3,
+    #preferences div span #results div h3,
+    #results div span {
+        margin-top: 5px;
+    }
+}
+
+@media(max-width:710px) {
+
+    body {
+        font-size: 14px;
+
+    }
+
+
+    #preferences section,
+    #results div {
+        height: 300px;
+        width: 70%;
+        margin: 15px;
+
+    }
+
+
+    #preferences div span {
+        display: none;
+    }
+
+    #preferences section div,
+    #results div {
+        margin: 2px;
+        padding: 2px;
+    }
+
+    #preferences .save {
+        position: absolute;
+        top: 200;
+
+        height: 50px;
+        width: 50px;
+    }
+
+    #minimenu {
+        font-size: 1.5em;
+    }
+
+    #modify {
+        position: absolute;
+        right: 20px;
+        top: 420px;
+        width: 25px;
+        height: 25px;
+
+    }
+
+    #results div {
+        height: auto;
+    }
+
+    #idpropic {
+        width: 130px;
+        height: 130px;
+    }
+
+    #name {
+        font-size: 2em;
+    }
+
+    #preferences {
+        padding: 2px;
+    }
+
+    #preferences div h1,
+    #preferences div h3 {
+        align-self: center;
+
+    }
+
+    #preferences,
+    #results {
+        margin-top: 650px;
+    }
+
+    form {
+        position: absolute;
+        top: 50px;
+        width: 130px;
+        align-self: center;
+    }
+}
+
+@media(max-width:430px) {
+    #preferences section {
+        height: 200px;
+        width: 80%;
+        margin: 10px;
+
+    }
+
+    #idpropic {
+        width: 100px;
+        height: 100px;
+    }
+
+    #preferences .save {
+        position: absolute;
+        top: 150;
+
+        height: 25px;
+        width: 25px;
+    }
+
+    #results .save {
+        position: absolute;
+        top: 5;
+        right: 5;
+        height: 25px;
+        width: 25px;
+    }
+
+    form {
+        position: absolute;
+        top: 50px;
+        width: 130px;
+        align-self: center;
+    }
+
+    #results div {
+        height: auto;
+    }
+}
+
+
+
+@media(max-width:375px) {
+    #name {
+        font-size: 1.5em;
+
+    }
+
+    #modify {
+        position: absolute;
+        top: 550px;
+        left: 15px;
+    }
+
+    #idpropic {
+        width: 80px;
+        height: 80px;
+    }
+
+    #modifyProfile {
+        position: absolute;
+        top: 500;
+
+    }
+}

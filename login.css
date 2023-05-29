@@ -1,0 +1,167 @@
+body {
+    background-image: url(images/loginn.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: white;
+    margin:0px;
+}
+
+#welcome {
+    font-size: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 180;
+    right: 50;
+    text-align: center;
+}
+
+main {
+    position:absolute;
+    left:calc(50% - 150px) ;
+    right:calc(50% - 150px);
+     
+    display: flex;
+    margin-top: 20%;
+  
+
+}
+
+form {
+
+
+    
+    
+    height: auto;
+    width: 300px;
+
+    border: 1px gray solid;
+    border-radius: 10px;
+    background-color: white;
+
+
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+
+    bottom: 50;
+    padding: 30px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+
+
+}
+form p {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    margin-bottom: 0;
+    margin-top: 10;
+
+
+}
+
+#signIn {
+
+    font-size: 20px;
+}
+
+form:hover {
+    opacity: 1;
+}
+
+form p input {
+    border-radius: 5px;
+    padding: 3px;
+    border: gray 3px solid;
+
+}
+
+form p input:hover {
+    border: lightskyblue 3px solid;
+}
+
+
+
+#enter input {
+    width: 180px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    border: 3px lightskyblue solid;
+    padding: 5px;
+    background-color: lightskyblue;
+}
+
+#enter input:hover {
+
+    width: 190px;
+    font-size: 15px;
+}
+
+
+#sign{
+    color:white;
+    
+}
+
+    
+.hidden {
+    display: none;
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
+
+form div img {
+    width: 10px;
+    height: 10px;
+    margin-right: 0px;
+}
+.error {
+    align-self:center;
+    color:red;
+    display: block;
+}
+#username , #password {
+    align-self:center;
+}
+#logo{
+    height:90px;
+    width:100px;
+    align-self:center;
+}
+
+@media(max-width:1000px) {
+    body {
+        background-image: url("images/mobile.png");
+        background-size:cover;
+        background-position:right;
+    }
+   
+    form{
+        
+        
+        margin:0px;
+    }
+    form p{
+        margin:10px;
+    }
+}
+
+@media(max-width:300px) {
+
+    form{
+        
+        padding:15px;
+      
+    }
+    main {
+        position:absolute;
+        left:calc(50% - 120px) ;
+        right:calc(50% - 120px);
+    }
+}
